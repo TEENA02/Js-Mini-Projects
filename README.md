@@ -1,2 +1,2 @@
 # js
- Mini-Projects-J
+#These are few projects of medium and easy level to brush up Javascript
