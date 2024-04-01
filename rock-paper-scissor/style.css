@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+   text-align: center;
+   }
+
+h1{
+    background-color: rgb(10, 10, 62);
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+body{
+    background: rgb(241,9,182);
+background: radial-gradient(circle, rgba(241,9,182,0.6087477227219013) 0%, rgba(10,10,62,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+.choice{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#paper:hover{
+    background-color:rgb(70, 116, 187) ;
+    cursor: pointer;
+}
+#stone:hover{
+    background-color:rgb(236, 17, 130) ;
+    cursor: pointer;
+}
+#scissor:hover{
+    background-color:rgb(243, 83, 25) ;
+    cursor: pointer;
+}
+
+img{
+    height: 200px;
+    width: 200px; 
+    /* //object-fit: cover; */
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 2rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+#user-score,#computer-score{
+font-size: 3rem;
+}
+.msg-container{
+    margin-top: 1rem;
+    
+}
+#msg{
+    background-color: rgb(122, 203, 41);
+    color: white;
+    display: inline;
+    font-size: 1.5rem;
+  padding: .5rem;
+  border-radius:10px;
+}
+button{
+    background-color: rgb(85, 178, 232);
+    color: white;
+    display: inline;
+    font-size: 1rem;
+  padding: .5rem;
+  border-radius:10px; 
+  border: none;
+
+
+}
+#reset{
+    margin-top: 13px;
+}
